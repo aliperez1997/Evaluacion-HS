@@ -1,0 +1,35 @@
+
+.filtro{
+    height: 100vh;
+    width: 20%;
+    background-color: #142431;
+}
+.caja-logo{
+    height: 150px;
+}
+.icon-search{
+    color: white;
+    font-size: 18px;
+}
+.caja-logo h3{
+    color:white;
+    font-size: 16px;
+}
+.caja-filtros{
+    background-color: #f7f7f7;
+    height: calc(100% - 150px);
+    padding: 1.5rem .3rem;
+    position: relative;
+}
+.filtro input, .filtro select {
+    height: 45px;
+    font-size: 14px;
+}
+.limpiar{
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}

@@ -1,0 +1,83 @@
+.contenedor{
+    position: relative;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.caja-head{
+    height: 200px;
+    background-color: #142431;
+}
+.contenedor-head{
+    height: 50%;
+}
+.icon-page{
+    color: white;
+    font-size: 26px;
+}
+.caja-head h2{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.caja-head button{
+    background-color: #67d6f7;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    width: max-content;
+}
+.caja-head button:hover{
+    background-color:aqua;
+}
+.caja-tabla{
+    height: calc(100% - 100px);
+    width: 97%;
+    position: absolute;
+    top: 100px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #e6e6e6;
+}
+.tabla{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.header-tabla, .row-tabla{
+    height: 45px;
+    width: 3250px;
+}
+.header-tabla h4{
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.row-tabla p{
+    font-size: 16px;
+    color: black;
+    width: 100%;
+    margin: 0;
+    line-height: 1.2rem;
+    text-align: center;
+}
+.row-tabla{
+    border-top: 1px solid #e6e6e6;
+}
+.checkbox{
+    width: 60px;
+}
+.corto{
+    width: 180px;
+}
+.medio{
+    width: 250px;
+}
+.largo{
+    width: 500px;
+}
